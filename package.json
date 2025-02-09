@@ -4,16 +4,13 @@
   "version": "1.0.0",
   "description": "This project is an interactive HTML love letter for Valentine's Day, designed to express affection in a unique and fun way. It includes a personalized message and the special question: **\"Will you be my girlfriend again?\"** Accompanied by adorable dinosaur images, the page lets the recipient interact with buttons to answer \"Yes\" or \"No\".",
   "main": "script.js",
-  "scripts": {
-    "start": "npx serve -s . -l ${PORT:-8080}"
-  },
-  
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "serve": "^14.2.4"
-  }
+"dependencies": {
+  "express": "^4.18.2"
+},
+"scripts": {
+  "start": "node server.js"
+}
+
 }
 
 
