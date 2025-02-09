@@ -117,3 +117,31 @@ body {
     transform: scale(1);
   }
 }
+
+#message {
+  text-align: center; /* Centra el texto y la imagen */
+  margin-top: 20px;
+}
+
+#message img {
+  display: block; /* Asegura que la imagen no afecte el texto */
+  margin: 10px auto; /* Centra la imagen horizontalmente */
+}
+
+.styled-button {
+  background-color: #ff4d79; /* Color rosa vibrante */
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 20px auto; /* Centra el botón horizontalmente */
+  display: block;
+}
+
+.styled-button:hover {
+  background-color: #e6395a;
+}
