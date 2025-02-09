@@ -1,0 +1,21 @@
+{
+  
+  "name": "sanvalentin",
+  "version": "1.0.0",
+  "description": "This project is an interactive HTML love letter for Valentine's Day, designed to express affection in a unique and fun way. It includes a personalized message and the special question: **\"Will you be my girlfriend again?\"** Accompanied by adorable dinosaur images, the page lets the recipient interact with buttons to answer \"Yes\" or \"No\".",
+  "main": "script.js",
+  "scripts": {
+     "start": "serve -s . -l $PORT",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}
+
+
+
